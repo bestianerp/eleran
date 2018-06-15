@@ -1,15 +1,13 @@
 from importlib.machinery import SourceFileLoader
-from pathlib import Path
 from setuptools import setup
 
-THIS_DIR			= Path(__file__).resolve().parent
-long_description	= THIS_DIR.joinpath('README.rst').read_text()
+long_description	= open('README.rst', 'r').read()
 version				= SourceFileLoader('version', 'eleran/version.py').load_module()
 
 setup(
 	name='eleran',
 	version=str(version.VERSION),
-	description='Simple, fast sass compiler and javascript minifier with hot reloading',
+	description='Simple & fast sass compiler and javascript minifier with hot reloading',
 	long_description=long_description,
 	classifiers=[
 		'Development Status :: 3 - Alpha',
