@@ -1,0 +1,11 @@
+// Import
+@import "base";
+@import "footer";
+
+// Style
+$background: "#eee";
+
+.main {
+	background-color: $background;
+	color: red;
+}

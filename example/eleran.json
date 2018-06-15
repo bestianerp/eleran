@@ -1,0 +1,19 @@
+[
+	{
+		"sass": {
+			"source": "sass/style.scss",
+			"output": "style.min.css",
+			"output_style": "compressed",
+			"source_comments": false
+		}
+	},
+	{
+		"js": {
+			"include": [
+				"js/foo.js",
+				"js/bar.js"
+			],
+			"output": "script.min.js"
+		}
+	}
+]

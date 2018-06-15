@@ -1,3 +1,9 @@
+# Custom
+test/
+test-*/
+example/script.min.js
+example/style.min.css
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
